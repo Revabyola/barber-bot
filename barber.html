@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <title>Барбершоп</title>
+    <link rel="stylesheet" href="barber_style.css">
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+</head>
+<body>
+    <div class="app">
+        <div id="content"><div class="loading-full"></div></div>
+        <nav class="nav" id="nav">
+            <button class="nav-btn active" data-page="home">
+                <span class="nav-icon">🏠</span>
+                <span>Главная</span>
+            </button>
+            <button class="nav-btn" data-page="book">
+                <span class="nav-icon">📅</span>
+                <span>Запись</span>
+            </button>
+            <button class="nav-btn" data-page="portfolio">
+                <span class="nav-icon">📸</span>
+                <span>Портфолио</span>
+            </button>
+            <button class="nav-btn" data-page="prices">
+                <span class="nav-icon">💰</span>
+                <span>Цены</span>
+            </button>
+            <button class="nav-btn" data-page="reviews">
+                <span class="nav-icon">⭐</span>
+                <span>Отзывы</span>
+            </button>
+        </nav>
+    </div>
+    <script src="barber_app.js"></script>
+</body>
+</html>
